@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+.about{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+h3{
+    text-align: justify;
+}
+.colorC{
+    text-align: right;
+}
+.colo{
+    cursor: pointer;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin: 3px;
+    border:2px solid rgb(75, 36, 247);
+}
+.black{
+    background-color: black;
+
+}
+.white{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
